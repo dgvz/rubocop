@@ -1,5 +1,8 @@
 # This is the configuration used to check the rubocop source code.
 
+require:
+   - ./lib/rubocop/cop/style/raise_exception.rb
+
 inherit_from: .rubocop_todo.yml
 
 AllCops:
